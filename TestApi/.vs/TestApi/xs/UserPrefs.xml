@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{E1939275-5A80-4AFA-939A-A055F8B39BBA}|Default">
+  <MonoDevelop.Ide.ItemProperties.MyApiDemo PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyApiDemo/Controllers/WeatherForecastController.cs">
+    <Files>
+      <File FileName="MyApiDemo/Models/Employee.cs" Line="21" Column="2" />
+      <File FileName="MyApiDemo/Models/ProductDbContext.cs" Line="4" Column="1" />
+      <File FileName="MyApiDemo/Properties/launchSettings.json" Line="24" Column="72" />
+      <File FileName="MyApiDemo/appsettings.Development.json" Line="9" Column="20" />
+      <File FileName="MyApiDemo/appsettings.json" Line="12" Column="4" />
+      <File FileName="MyApiDemo/Controllers/WeatherForecastController.cs" Line="29" Column="1" />
+      <File FileName="MyApiDemo/Startup.cs" Line="38" Column="82" />
+      <File FileName="MyApiDemo/Program.cs" Line="16" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TestApi" expanded="True">
+            <Node name="MyApiDemo" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="WeatherForecastController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Abdur13574/Projects/TestApi/TestApi/Controllers/ProductController.cs" relfile="TestApi/Controllers/ProductController.cs" line="22" column="1" />
+      <Breakpoint file="/Users/Abdur13574/Projects/TestApi/TestApi/Controllers/ProductController.cs" relfile="TestApi/Controllers/ProductController.cs" line="15" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

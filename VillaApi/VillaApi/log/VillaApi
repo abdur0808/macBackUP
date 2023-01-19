@@ -1,0 +1,59 @@
+2023-01-05 15:11:25.127 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-01-05 15:11:25.247 +00:00 [DBG] Hosting starting
+2023-01-05 15:11:25.678 +00:00 [INF] Now listening on: https://localhost:7091
+2023-01-05 15:11:25.678 +00:00 [INF] Now listening on: http://localhost:5261
+2023-01-05 15:11:25.679 +00:00 [DBG] Loaded hosting startup assembly VillaAPI
+2023-01-05 15:11:25.679 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-05 15:11:25.680 +00:00 [INF] Hosting environment: Development
+2023-01-05 15:11:25.680 +00:00 [INF] Content root path: /Users/Abdur13574/Projects/VillaApi/VillaApi
+2023-01-05 15:11:25.680 +00:00 [DBG] Hosting started
+2023-01-05 15:11:25.709 +00:00 [DBG] Connection id "0HMNF5SEHJT6T" accepted.
+2023-01-05 15:11:25.710 +00:00 [DBG] Connection id "0HMNF5SEHJT6T" started.
+2023-01-05 15:11:26.703 +00:00 [DBG] Connection id "0HMNF5SEHJT6T" received FIN.
+2023-01-05 15:11:26.713 +00:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-01-05 15:11:26.766 +00:00 [DBG] Connection id "0HMNF5SEHJT6U" accepted.
+2023-01-05 15:11:26.779 +00:00 [DBG] Connection id "0HMNF5SEHJT6U" started.
+2023-01-05 15:11:26.779 +00:00 [DBG] Connection id "0HMNF5SEHJT6V" accepted.
+2023-01-05 15:11:26.780 +00:00 [DBG] Connection id "0HMNF5SEHJT6V" started.
+2023-01-05 15:11:26.787 +00:00 [DBG] Connection id "0HMNF5SEHJT6T" stopped.
+2023-01-05 15:11:26.794 +00:00 [DBG] Connection id "0HMNF5SEHJT6T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-01-05 15:11:26.944 +00:00 [DBG] Connection 0HMNF5SEHJT6V established using the following protocol: "Tls12"
+2023-01-05 15:11:26.944 +00:00 [DBG] Connection 0HMNF5SEHJT6U established using the following protocol: "Tls12"
+2023-01-05 15:11:27.002 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:7091/swagger/index.html - -
+2023-01-05 15:11:27.004 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-01-05 15:11:27.030 +00:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-01-05 15:11:27.031 +00:00 [DBG] Request did not match any endpoints
+2023-01-05 15:11:27.170 +00:00 [DBG] Connection id "0HMNF5SEHJT6U" completed keep alive response.
+2023-01-05 15:11:27.172 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:7091/swagger/index.html - - - 200 - text/html;charset=utf-8 173.9642ms
+2023-01-05 15:11:27.283 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:7091/swagger/v1/swagger.json - -
+2023-01-05 15:11:27.284 +00:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-01-05 15:11:27.284 +00:00 [DBG] Request did not match any endpoints
+2023-01-05 15:11:27.449 +00:00 [DBG] Connection id "0HMNF5SEHJT6U" completed keep alive response.
+2023-01-05 15:11:27.449 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:7091/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 165.8088ms
+2023-01-05 15:11:36.405 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:7091/api/VillaAPI - -
+2023-01-05 15:11:36.410 +00:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-01-05 15:11:36.415 +00:00 [DBG] Endpoint 'VillaAPI.Controllers.VillaAPIController.GetVillas (VillaAPI)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-01-05 15:11:36.415 +00:00 [DBG] Request matched endpoint 'VillaAPI.Controllers.VillaAPIController.GetVillas (VillaAPI)'
+2023-01-05 15:11:36.418 +00:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-01-05 15:11:36.421 +00:00 [INF] Executing endpoint 'VillaAPI.Controllers.VillaAPIController.GetVillas (VillaAPI)'
+2023-01-05 15:11:36.434 +00:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[VillaAPI.VillaRepository.VillaDTO]] GetVillas() on controller VillaAPI.Controllers.VillaAPIController (VillaAPI).
+2023-01-05 15:11:36.436 +00:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-01-05 15:11:36.436 +00:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-01-05 15:11:36.437 +00:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-01-05 15:11:36.437 +00:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-01-05 15:11:36.437 +00:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-01-05 15:11:36.438 +00:00 [DBG] Executing controller factory for controller VillaAPI.Controllers.VillaAPIController (VillaAPI)
+2023-01-05 15:11:36.439 +00:00 [DBG] Executed controller factory for controller VillaAPI.Controllers.VillaAPIController (VillaAPI)
+2023-01-05 15:11:36.440 +00:00 [INF] Get all the villas
+2023-01-05 15:11:36.443 +00:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-01-05 15:11:36.446 +00:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-01-05 15:11:36.448 +00:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-01-05 15:11:36.448 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[VillaAPI.VillaRepository.VillaDTO, VillaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-05 15:11:36.579 +00:00 [INF] Executed action VillaAPI.Controllers.VillaAPIController.GetVillas (VillaAPI) in 135.3832ms
+2023-01-05 15:11:36.580 +00:00 [INF] Executed endpoint 'VillaAPI.Controllers.VillaAPIController.GetVillas (VillaAPI)'
+2023-01-05 15:11:36.580 +00:00 [DBG] Connection id "0HMNF5SEHJT6U" completed keep alive response.
+2023-01-05 15:11:36.581 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:7091/api/VillaAPI - - - 200 108 application/json;+charset=utf-8 176.0838ms

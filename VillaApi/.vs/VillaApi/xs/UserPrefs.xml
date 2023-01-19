@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.Workbench ActiveDocument="VillaApi/models/LocalUser.cs">
+    <Files>
+      <File FileName="VillaWebApp/Controllers/VillaController.cs" Line="97" Column="1" />
+      <File FileName="VillaAPI/models/LocalUser.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="VillaAPI" expanded="True">
+            <Node name="VillaAPI" expanded="True">
+              <Node name="models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.VillaWebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Abdur13574/Projects/VillaApi/VIllaWebApp/Controllers/VillaController.cs" relfile="VIllaWebApp/Controllers/VillaController.cs" line="70" column="1" />
+      <Breakpoint file="/Users/Abdur13574/Projects/VillaApi/VIllaWebApp/Controllers/VillaController.cs" relfile="VIllaWebApp/Controllers/VillaController.cs" line="97" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{C56A3E87-CD99-4862-9563-2C0D49E62E72}" ItemName="VillaAPI" ConfigurationId="https" />
+        <StartupItem ItemId="{738F61EB-BA97-4D5F-ACA1-2AE7726FCC38}" ItemName="VillaWebApp" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.VillaAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

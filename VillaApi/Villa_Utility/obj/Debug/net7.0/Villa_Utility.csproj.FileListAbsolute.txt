@@ -1,0 +1,12 @@
+/Users/Abdur13574/Projects/VillaApi/Villa_Utility/bin/Debug/net7.0/Villa_Utility.deps.json
+/Users/Abdur13574/Projects/VillaApi/Villa_Utility/bin/Debug/net7.0/Villa_Utility.dll
+/Users/Abdur13574/Projects/VillaApi/Villa_Utility/bin/Debug/net7.0/Villa_Utility.pdb
+/Users/Abdur13574/Projects/VillaApi/Villa_Utility/obj/Debug/net7.0/Villa_Utility.csproj.AssemblyReference.cache
+/Users/Abdur13574/Projects/VillaApi/Villa_Utility/obj/Debug/net7.0/Villa_Utility.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Abdur13574/Projects/VillaApi/Villa_Utility/obj/Debug/net7.0/Villa_Utility.AssemblyInfoInputs.cache
+/Users/Abdur13574/Projects/VillaApi/Villa_Utility/obj/Debug/net7.0/Villa_Utility.AssemblyInfo.cs
+/Users/Abdur13574/Projects/VillaApi/Villa_Utility/obj/Debug/net7.0/Villa_Utility.csproj.CoreCompileInputs.cache
+/Users/Abdur13574/Projects/VillaApi/Villa_Utility/obj/Debug/net7.0/Villa_Utility.dll
+/Users/Abdur13574/Projects/VillaApi/Villa_Utility/obj/Debug/net7.0/refint/Villa_Utility.dll
+/Users/Abdur13574/Projects/VillaApi/Villa_Utility/obj/Debug/net7.0/Villa_Utility.pdb
+/Users/Abdur13574/Projects/VillaApi/Villa_Utility/obj/Debug/net7.0/ref/Villa_Utility.dll
